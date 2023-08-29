@@ -14,16 +14,16 @@ public class Main {
         int aux = 9999;
         int hora, minuto,segundo=0;
         while (aux != 0 ){
-            System.out.println("1 Registrar um horario");
-            System.out.println("2 iniciar o cronometro");
-            System.out.println("3 reniciar o relogio para meia-noite");
-            System.out.println("4 imprimir horario padrao 00:00:00");
-            System.out.println("5 imprimir horario padrao AM:PM");
+            System.out.println("1 -  Registrar um horario");
+            System.out.println("2 - iniciar o cronometro");
+            System.out.println("3 - reniciar o relogio para meia-noite");
+            System.out.println("4 - imprimir horario padrao 00:00:00");
+            System.out.println("5 - imprimir horario padrao AM:PM");
 
 
             System.out.println("0 sair ");
 
-            System.out.println("Digite a opocao que deseja: ");
+            System.out.println("\nDigite a opocao que deseja: ");
             aux = input.nextInt();
 
             // criando o menu
@@ -50,8 +50,7 @@ public class Main {
                    relogio.imprimirAmPm();
                    break;
 
-               default: System.out.println("Digite uma opcao valida");
-               break;
+               
            }
         }
 
