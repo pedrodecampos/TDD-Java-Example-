@@ -3,7 +3,7 @@ package Relogio;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-
+      
 
       // inicializando a classe relogio
       Relogio relogio = new Relogio();
@@ -35,7 +35,7 @@ public class Main {
                    minuto = input.nextInt();
                    System.out.println("Digite o segundo: ");
                    segundo = input.nextInt();
-                   relogio.horario(hora,minuto,segundo);
+                   relogio.Relogio(hora, minuto, segundo);               
                    break;
                case 2:
                    relogio.cronometro();

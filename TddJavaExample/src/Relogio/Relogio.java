@@ -5,9 +5,9 @@ public class Relogio {
     private int hora, minuto, segundo = 0;
 
     // criando o construtor cheio/vazio
-  public void  horario(int hora, int minuto, int segundo){
+  public void Relogio(int hora, int minuto, int segundo){
       if(hora <=23 && minuto <=60 && segundo <=60) {  
-	  this.hora = hora;
+	   this.hora = hora;
         this.minuto = minuto;
         this.segundo = segundo;
         System.out.println("Horario registrado com sucesso");
@@ -16,6 +16,7 @@ public class Relogio {
         }
       
     }
+  
 
     Relogio(){
 
